@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_margin="50sp"
+        android:src="@drawable/smartphone"
+        />
+
+
+    <TextView
+        android:id="@+id/Title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido. Complete los campos"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:textStyle="normal"
+        android:fontFamily="monospace"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Principal_EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Ingrese su Usuario"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/Button_TextView_Change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:text="Cambiar TextView" />
+
+            <Button
+                android:id="@+id/Button_Toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:text="Muestra Toast" />
+
+            <TextView
+                android:id="@+id/Name_In_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30pt"
+                android:fontFamily="cursive"
+                android:text="Your Name"
+                android:textSize="50sp"
+                android:textStyle="italic" />
+            <!--
+    Principal_EditText
+    Button_TextView_Change
+    Button_Toast
+    Name_In_TextView
+    -->
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

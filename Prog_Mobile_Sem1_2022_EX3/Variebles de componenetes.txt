@@ -1,0 +1,6 @@
+Altura   	EditText
+Kilos		EditText
+Button_calcular	Button
+que_es		TextView
+Descripcion	TextView -> Invisible
+resultado	TextView

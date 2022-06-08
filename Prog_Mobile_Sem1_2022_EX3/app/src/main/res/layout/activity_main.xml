@@ -29,6 +29,7 @@
         android:fontFamily="cursive"
         />
     <TextView
+        android:id="@+id/Masa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -80,7 +81,6 @@
         android:layout_height="wrap_content"
         android:text="Una medida de la obesidad se determina mediante el índice de masa corporal (IMC), que se calcula dividiendo los kilogramos de peso por el cuadrado de la estatura en metros (IMC = peso [kg]/ estatura [m2]). Según el Instituto Nacional del Corazón, los Pulmones y la Sangre de los Estados Unidos (NHLBI), el sobrepeso se define como un IMC de más de 25. Se considera que una persona es obesa si su IMC es superior a 30. Usted puede determinar su IMC con la calculadora que se encuentra a continuación. Con la cifra del IMC puede averiguar su composición corporal en la tabla que aparece debajo de la calculadora."
         android:inputType="textMultiLine"
-        android:visibility="invisible"
         android:textSize="10sp"
         android:layout_gravity="center"
         />

@@ -1,0 +1,10 @@
+1.  Crie uma aplicação com uma tela de login
+    Abrir nova activity de boas-vindas se login e senha estiverem corretos
+    Na nova activity, o nome do usuário deve ser recebido e mostrado em um TextView
+    Caso a tela seja rotacionada, o nome do usuário (na TextView) não deve ser perdido. Para isso, salve e restaure adequadamente.
+    Se login e senha não estiverem corretos, apresentar mensagem com Toast
+
+
+2.  Crie uma aplicação que alterne para uma uma nova Activity ao clicar em um botão
+    A nova activity deve retornar algum valor para a Activity principal
+    Pesquise sobre: startActivityForResult, setResult e onActivityResult()
